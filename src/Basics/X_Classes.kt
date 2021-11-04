@@ -1,4 +1,6 @@
-class MainCar(Type:String,Model:Int,Prise:Int){
+package Basics
+
+class MainCar(Type:String, Model:Int, Prise:Int){
     init { //دالة تستدعى بشكل تلقائى بمجرد عمل instance من  ال Class
         println("Type:$Type")
         println("Model:$Model")
